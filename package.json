@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-picker/picker": "2.11.1",
     "@react-navigation/bottom-tabs": "^7.9.0",
     "@react-navigation/elements": "^2.9.3",
     "@react-navigation/native": "^7.1.26",
@@ -22,6 +23,8 @@
     "prettier-plugin-tailwindcss": "^0.5.14",
     "react": "19.1.0",
     "react-native": "0.81.5",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-element-dropdown": "^2.12.4",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",

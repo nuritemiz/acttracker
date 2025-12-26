@@ -21,7 +21,7 @@ export default function Welcome({ navigation }) {
 
                 <TouchableOpacity
                     className="bg-[#BFF205] mt-16 p-5 px-12 rounded-full"
-                    onPress={() => navigation.navigate('Home')}
+                    onPress={() => navigation.replace('HomeTab')}
                 >
                     <Text className="text-[#0D0D0D] font-general-medium">Get Started</Text>
                 </TouchableOpacity>
