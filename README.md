@@ -84,7 +84,16 @@ The app features a modern dark theme with:
 
 ## Screenshots
 
-*Coming soon*
+<table>
+  <tr>
+    <td><img src="screenshots/welcome.png" width="300" alt="Welcome Screen"/></td>
+    <td><img src="screenshots/home.png" width="300" alt="Home Screen"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Welcome Screen</b></td>
+    <td align="center"><b>Home Screen</b></td>
+  </tr>
+</table>
 
 ## Contributing
 
