@@ -1,8 +1,8 @@
-# ActTracker 🏃‍♂️
+# ActTracker
 
 A modern activity tracking mobile application built with React Native and Expo.
 
-## 📱 Features
+## Features
 
 - **Activity Tracking**: Track various activities including running, cycling, tennis, swimming, yoga, hiking, and weight training
 - **Statistics Dashboard**: View your weekly activity statistics with beautiful visualizations
@@ -10,7 +10,7 @@ A modern activity tracking mobile application built with React Native and Expo.
 - **Custom UI**: Modern dark theme with lime green accents (#BFF205)
 - **Responsive Design**: Optimized for mobile devices
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React Native** 0.81.5
 - **Expo** ~54.0.30
@@ -20,7 +20,7 @@ A modern activity tracking mobile application built with React Native and Expo.
 - **React Native Reanimated**
 - **Custom Fonts**: General Sans family
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -59,7 +59,7 @@ For iOS:
 npx expo run:ios
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 acttracker/
@@ -74,7 +74,7 @@ acttracker/
 └── package.json     # Dependencies
 ```
 
-## 🎨 Design
+## Design
 
 The app features a modern dark theme with:
 - Background: `#0D0D0D`
@@ -82,24 +82,24 @@ The app features a modern dark theme with:
 - Card Backgrounds: `#1E1E1E`, `#161616`
 - Custom typography using General Sans font family
 
-## 📸 Screenshots
+## Screenshots
 
 *Coming soon*
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+## Author
 
 **Nuri Temiz**
 - GitHub: [@nuritemiz](https://github.com/nuritemiz)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Expo](https://expo.dev/)
 - Icons from [@expo/vector-icons](https://icons.expo.fyi/)
