@@ -40,7 +40,7 @@ export default function Welcome({ navigation }) {
                     </TouchableOpacity>
                 </View>
 
-                <Text className="text-[#F8F8F8] mt-20 text-[10px] font-extralight">Terms Of Service & Policies</Text>
+                <Text className="text-[#F8F8F8] mt-12 text-[10px] font-extralight">Terms Of Service & Policies</Text>
             </SafeAreaView>
 
         </ImageBackground>

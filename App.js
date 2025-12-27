@@ -99,7 +99,9 @@ export default function App() {
 
   React.useEffect(() => {
     if (fontsLoaded) {
-      SplashScreen.hideAsync();
+      setTimeout(() => {
+        SplashScreen.hideAsync();
+      }, 1000);
     }
   }, [fontsLoaded]);
 

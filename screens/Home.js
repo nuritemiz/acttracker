@@ -3,7 +3,7 @@ import { View, Text, Image, TouchableOpacity, ImageBackground, ScrollView } from
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import "../global.css"
-import {FontAwesome, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
+import { FontAwesome, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
 export default function Home() {
   return (
 
@@ -22,13 +22,13 @@ export default function Home() {
           </TouchableOpacity>
         </View>
 
-        <View className="flex-row ml-5  mt-8">
-          <FontAwesome name="star" size={20} color="#BFF205" />
+        <View className="flex-row ml-5 mt-8">
+          <FontAwesome name="star" size={20} color="#BFF205" className="self-center" />
           <Text className="text-[#F8F8F8] font-general-medium text-[18px] px-4">Favorite Activities</Text>
         </View>
 
 
-        <TouchableOpacity className="w-[332px] h-[112px] rounded-2xl overflow-hidden self-center mt-5  ">
+        <TouchableOpacity className="w-[370px] h-[112px] rounded-2xl overflow-hidden self-center mt-5  ">
           <ImageBackground
             source={require('../assets/running.png')}
             style={{ flex: 1, }}
@@ -55,7 +55,7 @@ export default function Home() {
           </ImageBackground>
         </TouchableOpacity>
 
-        <TouchableOpacity className="w-[332px] h-[112px] rounded-2xl overflow-hidden self-center mt-5 ">
+        <TouchableOpacity className="w-[370px] h-[112px] rounded-2xl overflow-hidden self-center mt-5 ">
           <ImageBackground
             source={require('../assets/cycling.png')}
             style={{ flex: 1 }}
@@ -81,7 +81,7 @@ export default function Home() {
           </ImageBackground>
         </TouchableOpacity>
 
-        <TouchableOpacity className="w-[332px] h-[112px] rounded-2xl overflow-hidden self-center mt-5 ">
+        <TouchableOpacity className="w-[370px] h-[112px] rounded-2xl overflow-hidden self-center mt-5 ">
           <ImageBackground
             source={require('../assets/tennis.png')}
             style={{ flex: 1 }}
@@ -108,14 +108,14 @@ export default function Home() {
         </TouchableOpacity>
 
         <View className="flex-row ml-5 mt-10">
-          <MaterialCommunityIcons name="import" size={20} color="#BFF205" />
+          <MaterialCommunityIcons name="import" size={20} color="#BFF205" className="self-center" />
           <Text className="text-[#F8F8F8] font-general-medium text-[18px] px-4">
             Select Your Activity
           </Text>
         </View>
 
-        <View className="flex-row px-5 justify-between mt-5 mb-4">
-          <TouchableOpacity className="w-[150px] h-[112px] rounded-2xl overflow-hidden">
+        <View className="flex-row px-6 justify-between mt-5 mb-4">
+          <TouchableOpacity className="w-[170px] h-[112px] rounded-2xl overflow-hidden">
             <ImageBackground
               source={require('../assets/swimming.png')}
               style={{ flex: 1 }}
@@ -133,7 +133,7 @@ export default function Home() {
             </ImageBackground>
           </TouchableOpacity>
 
-          <TouchableOpacity className="w-[150px] h-[112px] rounded-2xl overflow-hidden">
+          <TouchableOpacity className="w-[170px] h-[112px] rounded-2xl overflow-hidden">
             <ImageBackground
               source={require('../assets/yoga.png')}
               style={{ flex: 1 }}
@@ -153,7 +153,7 @@ export default function Home() {
         </View>
 
         <View className="flex-row px-5 justify-between mt-3 mb-4">
-          <TouchableOpacity className="w-[150px] h-[112px] rounded-2xl overflow-hidden">
+          <TouchableOpacity className="w-[170px] h-[112px] rounded-2xl overflow-hidden">
             <ImageBackground
               source={require('../assets/hiking.jpg')}
               style={{ flex: 1 }}
@@ -171,7 +171,7 @@ export default function Home() {
             </ImageBackground>
           </TouchableOpacity>
 
-          <TouchableOpacity className="w-[150px] h-[112px] rounded-2xl overflow-hidden">
+          <TouchableOpacity className="w-[170px] h-[112px] rounded-2xl overflow-hidden">
             <ImageBackground
               source={require('../assets/weight.jpg')}
               style={{ flex: 1 }}
